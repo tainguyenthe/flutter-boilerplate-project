@@ -100,25 +100,25 @@ Here is the core folder structure which flutter provides.
 
 ```
 flutter-app/
-|- android
-|- build
-|- ios
-|- lib
-|- test
+\|- android
+\|- build
+\|- ios
+\|- lib
+\|- test
 ```
 
 Here is the folder structure we have been using in this project
 
 ```
 lib/
-|- constants/
-|- data/
-|- stores/
-|- ui/
-|- utils/
-|- widgets/
-|- main.dart
-|- routes.dart
+\|- constants/
+\|- data/
+\|- stores/
+\|- ui/
+\|- utils/
+\|- widgets/
+\|- main.dart
+\|- routes.dart
 ```
 
 Now, lets dive into the lib folder which has the main code for the application.
@@ -140,11 +140,11 @@ This directory contains all the application level constants. A separate file is 
 
 ```
 constants/
-|- app_theme.dart
-|- dimens.dart
-|- endpoints.dart
-|- preferences.dart
-|- strings.dart
+\|- app_theme.dart
+\|- dimens.dart
+\|- endpoints.dart
+\|- preferences.dart
+\|- strings.dart
 ```
 
 ### Data
@@ -153,21 +153,21 @@ All the business logic of your application will go into this directory, it repre
 
 ```
 data/
-|- local/
-    |- constants/
-    |- datasouces/
-    |- app_database.dart
+\|- local/
+    \|- constants/
+    \|- datasouces/
+    \|- app_database.dart
    
-|- network/
-    |- constants/
-    |- exceptions/
-    |- rest_client.dart
-    
-|- sharedpref
-    |- constants/
-    |- shared_preference_helper.dart
-    
-|- repository.dart
+\|- network/
+\    |- constants/
+\    |- exceptions/
+\    |- rest_client.dart
+
+\|- sharedpref
+\    |- constants/
+\    |- shared_preference_helper.dart
+
+\|- repository.dart
 
 ```
 
@@ -177,9 +177,9 @@ The store is where all your application state lives in flutter. The Store is bas
 
 ```
 stores/
-|- login/
-    |- login_store.dart
-    |- form_validator.dart
+\|- login/
+\    |- login_store.dart
+\    |- form_validator.dart
 ```
 
 ### UI
@@ -188,11 +188,11 @@ This directory contains all the ui of your application. Each screen is located i
 
 ```
 ui/
-|- login
-   |- login_screen.dart
-   |- widgets
-      |- login_form.dart
-      |- login_button.dart
+\|- login
+\   |- login_screen.dart
+\   |- widgets
+\      |- login_form.dart
+\      |- login_button.dart
 ```
 
 ### Utils
@@ -201,10 +201,10 @@ Contains the common file(s) and utilities used in a project. The folder structur
 
 ```
 utils/
-|- encryption
-   |- xxtea.dart
-|- date
-  |- date_time.dart
+\|- encryption
+\   |- xxtea.dart
+\|- date
+\  |- date_time.dart
 ```
 
 ### Widgets
@@ -213,9 +213,9 @@ Contains the common widgets that are shared across multiple screens. For example
 
 ```
 widgets/
-|- app_icon_widget.dart
-|- empty_app_bar.dart
-|- progress_indicator.dart
+\|- app_icon_widget.dart
+\|- empty_app_bar.dart
+\|- progress_indicator.dart
 ```
 
 ### Routes
